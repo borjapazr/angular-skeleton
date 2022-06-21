@@ -18,6 +18,10 @@
     .material-symbols-outlined {
       @apply mx-2 -mt-1 align-middle;
     }
+
+    .author {
+      @apply hidden md:inline-block;
+    }
   }
 
   .right {
