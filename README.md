@@ -4,6 +4,11 @@
  alt="Node.js, Typescript and Express template"
  src="https://i.imgur.com/ysaMVxF.png">
 <br>
+<img
+  width="500"
+ alt="Node.js, Typescript and Express template"
+ src="https://i.imgur.com/mT7x7gO.png">
+ 
 <br>
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/borjapazr/angular-skeleton?style=flat-square)
