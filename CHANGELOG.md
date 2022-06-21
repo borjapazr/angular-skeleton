@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.0.1](https://github.com/borjapazr/angular-skeleton/compare/v0.0.0...v0.0.1) (2022-06-21)
+
+### Bug Fixes
+
+- **cd:** add permissions to cd workflow ([77b5376](https://github.com/borjapazr/angular-skeleton/commit/77b5376ab366b27f769296746baea0b9115e7696))
+
 ## 0.0.0 (2022-06-21)
 
 ### Features
