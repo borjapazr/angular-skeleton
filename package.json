@@ -171,7 +171,7 @@
     "prettier-plugin-tailwindcss": "^0.1.11",
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
-    "strip-json-comments": "3.1.1",
+    "strip-json-comments": "4.0.0",
     "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-prettier-scss": "^0.0.1",
