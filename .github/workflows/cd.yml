@@ -56,3 +56,14 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+  redeploy:
+    name: 🔄 Redeploy webhook call
+    runs-on: ubuntu-latest
+    needs: distribute
+
+    steps:
+      - name: 🚀 Deploy Angular Skeleton webhook
+        uses: joelwmale/webhook-action@master
+        env:
+          WEBHOOK_URL: ${{ secrets.REDEPLOY_WEBHOOK_URL }}
