@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: ⬇️ Checkout project
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: 📋 Build Changelog
         run: npx extract-changelog-release > RELEASE_BODY.md
@@ -31,11 +31,25 @@ jobs:
 
     steps:
       - name: ⬇️ Checkout project
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: 🏷️ Get the version
-        id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+      - name: 💻 Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: 💽 Build OCI image
-        run: make build/ssr TAG=${{ steps.get_version.outputs.VERSION }}
+      - name: 🏷️ Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: borjapazr/angular-skeleton
+
+      - name: 💽 Build and push Docker image
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: docker/Dockerfile
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
