@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.0.2](https://github.com/borjapazr/angular-skeleton/compare/v0.0.1...v0.0.2) (2022-06-21)
+
+### Features
+
+- **cd:** add deploy step ([ad44e9d](https://github.com/borjapazr/angular-skeleton/commit/ad44e9df310479521f3576015534c0a81fdfcbad))
+
 ### [0.0.1](https://github.com/borjapazr/angular-skeleton/compare/v0.0.0...v0.0.1) (2022-06-21)
 
 ### Bug Fixes
