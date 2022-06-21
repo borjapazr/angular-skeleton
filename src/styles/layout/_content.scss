@@ -1,0 +1,7 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the content of the site/application.
+// -----------------------------------------------------------------------------
+
+app-content {
+  @apply order-4 grow px-5 md:w-3/4 lg:w-5/6;
+}

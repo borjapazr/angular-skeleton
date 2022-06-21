@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "mkaufman.HTMLHint",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "vsls-contrib.codetour",
+    "bradlc.vscode-tailwindcss",
+    "firsttris.vscode-jest-runner",
+    "Orta.vscode-jest"
+  ]
+}

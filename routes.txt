@@ -1,0 +1,9 @@
+/
+/es
+/es/welcome
+/es/jokes
+/es/jokes/chuck-norris
+/en
+/en/welcome
+/en/jokes
+/en/jokes/chuck-norris

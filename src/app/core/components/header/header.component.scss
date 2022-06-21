@@ -1,0 +1,36 @@
+header {
+  @apply flex;
+
+  .left,
+  .right {
+    @apply flex-1;
+
+    button {
+      @apply mr-4;
+    }
+
+    .material-symbols-outlined {
+      @apply align-middle text-3xl;
+    }
+  }
+
+  .left {
+    @apply text-left;
+
+    img {
+      @apply -mt-4 mr-3 hidden w-12 cursor-pointer md:inline-block;
+    }
+
+    h1 {
+      @apply inline-block text-2xl md:text-4xl;
+    }
+  }
+
+  .right {
+    @apply text-right;
+
+    img {
+      @apply inline-block w-11 rounded-lg;
+    }
+  }
+}

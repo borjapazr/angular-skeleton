@@ -1,0 +1,44 @@
+{
+  "i18n": {
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "navbar": {
+    "welcome": "Bienvenidx",
+    "jokes": "Bromas de Chuck Norris",
+    "notFound": "Not Found"
+  },
+  "routes": {
+    "default": {
+      "title": "Angular Skeleton",
+      "description": "Angular Skeleton"
+    },
+    "welcome": {
+      "title": "Bienvenido",
+      "description": "Página de bienvenida"
+    },
+    "jokes": {
+      "title": "Bromas de Chuck Norris",
+      "description": "Bromas de Chuck Norris"
+    }
+  },
+  "features": {
+    "jokes": {
+      "getJoke": "Obtener chiste aleatorio"
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Not Found",
+      "description": "La página que buscas no existe"
+    },
+    "504": {
+      "title": "Network Error",
+      "description": "Por favor, comprueba tu conexión a internet y vuelve a intentarlo"
+    },
+    "unknown": {
+      "title": "Unknown Error",
+      "description": "Error desconocido"
+    }
+  }
+}

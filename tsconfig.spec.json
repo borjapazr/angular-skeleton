@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "allowJs": true,
+    "module": "commonjs",
+    "types": ["jest", "node"]
+  },
+  "extends": "./tsconfig.json",
+  "files": ["src/polyfills.ts"],
+  "include": ["src/**/*.int.ts", "src/**/*.spec.ts", "src/**/*.test.ts", "src/**/*.d.ts"]
+}

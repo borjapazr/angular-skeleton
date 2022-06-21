@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  angular-skeleton:
+    build:
+      context: ..
+      args:
+        - PORT=${PORT}
+      dockerfile: ./docker/Dockerfile
+      target: csr
+    image: ${APP_NAME}:csr
+    container_name: ${APP_NAME}
+    restart: always
+    env_file:
+      - ../.env
+    environment:
+      - TZ=${TZ}
+    ports:
+      - ${EXTERNAL_PORT}:${PORT}
+
+networks:
+  default:
+    name: ${APP_NAME}-network

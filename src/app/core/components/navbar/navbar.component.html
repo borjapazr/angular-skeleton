@@ -1,0 +1,12 @@
+<!-- t(navbar.welcome, navbar.jokes, navbar.notFound) -->
+<nav *transloco="let t; read: 'navbar'">
+  <ul>
+    <li
+      [routerLinkActive]="['active']"
+      [routerLinkActiveOptions]="{ exact: false }"
+      *ngFor="let menuEntry of menuEntries"
+    >
+      <a [routerLink]="menuEntry['link'] | localizeRoute">{{ t(menuEntry['labelId']) }}</a>
+    </li>
+  </ul>
+</nav>

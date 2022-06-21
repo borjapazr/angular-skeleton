@@ -1,0 +1,7 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn {
+  @apply border-2 border-solid border-stone-600 px-3 py-2.5 font-bold border-sketch-2 dark:border-stone-100;
+}

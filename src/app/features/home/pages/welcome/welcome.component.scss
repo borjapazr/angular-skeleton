@@ -1,0 +1,7 @@
+:host div {
+  @apply flex h-full items-center justify-center;
+
+  p {
+    @apply mb-7 border-2 border-dashed border-stone-600 px-3 py-2.5 font-bold border-sketch-2 dark:border-stone-100;
+  }
+}

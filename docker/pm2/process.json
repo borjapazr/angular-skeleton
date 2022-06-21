@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "angular-skeleton",
+      "script": "./dist/server/main.js",
+      "exec_mode": "cluster",
+      "instances": "max"
+    }
+  ]
+}

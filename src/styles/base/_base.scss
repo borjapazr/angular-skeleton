@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply m-0 bg-stone-100 bg-cover bg-center bg-no-repeat text-lg text-stone-900 dark:bg-stone-900 dark:text-stone-100;
+}
+
+app-header,
+app-navbar,
+app-content,
+app-footer {
+  @apply border-2 border-solid border-stone-600 p-5 border-sketch-1 dark:border-stone-100;
+}

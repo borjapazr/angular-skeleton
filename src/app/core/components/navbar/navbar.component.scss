@@ -1,0 +1,11 @@
+:host ul {
+  @apply m-0 list-none;
+
+  li {
+    @apply px-3 py-2.5 text-center;
+
+    &.active {
+      @apply border-2 border-solid border-stone-600 px-3 py-2.5 font-bold border-sketch-2 dark:border-stone-100;
+    }
+  }
+}

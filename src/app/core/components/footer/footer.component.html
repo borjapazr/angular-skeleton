@@ -1,0 +1,23 @@
+<!-- t(i18n.es, i18n.en) -->
+<footer *transloco="let t; read: 'i18n'">
+  <div class="left">Made with <app-heart-icon></app-heart-icon> using Angular</div>
+  <div class="center">
+    <span class="author">
+      <a target="_blank" [href]="website">{{ author }}</a>
+    </span>
+    <span class="material-symbols-outlined">copyright</span>
+    <span class="year"></span>{{ year }}
+  </div>
+  <div class="right">
+    <span class="material-symbols-outlined">language</span>
+    <div>
+      <span
+        *ngFor="let language of languages"
+        class="image-button"
+        [class.active]="(activeLanguage$ | async) === language['id']"
+        (click)="setActiveLanguage(language['id'])"
+        >{{ t(language['id']) }}
+      </span>
+    </div>
+  </div>
+</footer>

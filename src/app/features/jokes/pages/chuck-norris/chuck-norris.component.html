@@ -1,0 +1,8 @@
+<ng-container *transloco="let t; read: 'features.jokes'">
+  <div *ngIf="randomJoke$ | async as randomJoke">
+    <p>
+      {{ randomJoke.value }}
+    </p>
+    <button type="button" class="btn content-center" (click)="getRandomJoke()">{{ t('getJoke') }}</button>
+  </div>
+</ng-container>
