@@ -7,7 +7,7 @@
 <img
   width="500"
  alt="Node.js, Typescript and Express template"
- src="https://i.imgur.com/mT7x7gO.png">
+ src="https://i.imgur.com/LydboRD.png">
  
 <br>
 
