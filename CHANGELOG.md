@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0](https://github.com/borjapazr/angular-skeleton/compare/v0.0.2...v1.0.0) (2022-06-21)
+
+### Bug Fixes
+
+- **footer:** remove author on small devices ([a82f374](https://github.com/borjapazr/angular-skeleton/commit/a82f37450889895abb475160e1017184275d942c))
+
 ### [0.0.2](https://github.com/borjapazr/angular-skeleton/compare/v0.0.1...v0.0.2) (2022-06-21)
 
 ### Features
