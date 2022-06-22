@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.2](https://github.com/borjapazr/angular-skeleton/compare/v1.0.1...v1.0.2) (2022-06-22)
+
+### Bug Fixes
+
+- **i18n:** change return value of localize route guard ([b5e3c31](https://github.com/borjapazr/angular-skeleton/commit/b5e3c310df5d13fd1802400d36501727240aa3fe))
+
+### Docs
+
+- **readme:** add content to features section ([5f040ce](https://github.com/borjapazr/angular-skeleton/commit/5f040ce0f6ff4e8bf158ffe77b420d21a99a6b14))
+
 ### [1.0.1](https://github.com/borjapazr/angular-skeleton/compare/v1.0.0...v1.0.1) (2022-06-22)
 
 ### Bug Fixes
