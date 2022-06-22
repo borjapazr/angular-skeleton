@@ -35,7 +35,12 @@ export class LocalizeRoute implements CanActivate {
       );
 
       if (this.platformService.isBrowser) {
-        return this.router.navigateByUrl(`${targetLanguage}${state.url}`, { replaceUrl: true });
+        /**
+         * It is implemented in this way until this issue is resolved.
+         * https://github.com/angular/angular/issues/27148
+         */
+        this.router.navigateByUrl(`${targetLanguage}${state.url}`, { replaceUrl: true });
+        return false;
       }
       this.serverService.setRedirectResponse(`/${targetLanguage}${state.url}`, false);
     }
