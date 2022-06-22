@@ -35,7 +35,7 @@ export class LocalizeRoute implements CanActivate {
       );
 
       if (this.platformService.isBrowser) {
-        return this.router.parseUrl(`${targetLanguage}${state.url}`);
+        return this.router.navigateByUrl(`${targetLanguage}${state.url}`, { replaceUrl: true });
       }
       this.serverService.setRedirectResponse(`/${targetLanguage}${state.url}`, false);
     }
