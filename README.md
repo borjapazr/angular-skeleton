@@ -53,7 +53,222 @@ The main goal of this project is to provide a base template for the generation o
 
 ## 📋 Features
 
-TODO
+- Angular
+- TailwindCSS
+- Angular Universal
+- domino
+- ng-lazyload-image
+- ngx-isr
+- Jest
+- ESLint
+- Prettier
+- Husky
+- Stylelint
+- HTMLHint
+- CSpell
+- Commitlint
+- Cypress
+- Transloco
+- cz
+- lint-staged
+- jest-extended
+
+### 🗂 Codebase structure
+
+```txt
+angular-skeleton/
+├── .github/
+├── .husky/
+├── .vscode/
+├── cypress/
+│   ├── e2e/
+│   ├── fixtures/
+│   ├── support/
+│   ├── coverage.webpack.js
+│   └── tsconfig.json
+├── docker/
+├── src/
+│   ├── app/
+│   │   ├── core/
+│   │   │   ├── components/
+│   │   │   ├── constants/
+│   │   │   ├── enums/
+│   │   │   ├── guards/
+│   │   │   ├── handlers/
+│   │   │   ├── interceptors/
+│   │   │   ├── loaders/
+│   │   │   ├── models/
+│   │   │   ├── resolvers/
+│   │   │   ├── services/
+│   │   │   ├── strategies/
+│   │   │   ├── tokens/
+│   │   │   ├── utils/
+│   │   │   ├── ...
+│   │   │   └── core.module.ts
+│   │   ├── features
+│   │   │   ├── feature-a
+│   │   │   │   ├── components/
+│   │   │   │   ├── models/
+│   │   │   │   ├── pages/
+│   │   │   │   ├── services/
+│   │   │   │   ├── ...
+│   │   │   │   ├── home-routing.module.ts
+│   │   │   │   └── home.module.ts
+│   │   │   ├── feature-b
+│   │   │   └── ...
+│   │   ├── shared/
+│   │   │   ├── components/
+│   │   │   ├── directives/
+│   │   │   ├── modules/
+│   │   │   ├── pipes/
+│   │   │   ├── services/
+│   │   │   └── shared.module.ts
+│   │   ├── app-routing.module.ts
+│   │   ├── app.browser.module.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   │   └── app.server.module.ts
+│   ├── assets/
+│   │   ├── i18n/
+│   │   ├── icons/
+│   │   └── images/
+│   ├── environments/
+│   ├── styles/
+│   │   ├── abstracts/
+│   │   ├── base/
+│   │   ├── components/
+│   │   ├── layout/
+│   │   ├── vendors/
+│   │   └── main.scss
+│   ├── types/
+│   ├── favicon.ico
+│   ├── favicon.png
+│   ├── index.html
+│   ├── jest.mocks.ts
+│   ├── jest.setup.ts
+│   ├── main.browser.ts
+│   ├── main.server.ts
+│   ├── manifest.webmanifest
+│   ├── polyfills.ts
+│   ├── robots.txt
+│   └── styles.scss
+├── .browserslistrc
+├── .commitlintrc.js
+├── .cspell.json
+├── .czrc
+├── .dockerignore
+├── .editorconfig
+├── .env
+├── .eslintcache
+├── .eslintignore
+├── .eslintrc.js
+├── .gitignore
+├── .htmlhintrc
+├── .lintstagedrc.js
+├── .ncurc.js
+├── .npmignore
+├── .prettierignore
+├── .prettierrc.js
+├── .stylelintcache
+├── .stylelintignore
+├── .tool-versions
+├── .versionrc.js
+├── CHANGELOG.md
+├── LICENSE
+├── Makefile
+├── README.md
+├── TODO.md
+├── angular.json
+├── cypress.config.ts
+├── jest.config.js
+├── ngsw-config.json
+├── nyc.config.js
+├── package-lock.json
+├── package.json
+├── routes.txt
+├── server.ts
+├── stylelint.config.js
+├── tailwind.config.js
+├── transloco.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.server.json
+└── tsconfig.spec.json
+```
+
+### 🎛️ Code style and best practices
+
+- Prettier
+- ESLint
+- Stylelint
+- HTMLHint
+- commitlint
+
+### 🛢 Barrel files
+
+### 🏞 Application layout
+
+- Flexbox layout
+- TailwindCSS
+- Dark theme
+- Styles (SCSS) folder structure
+
+### 🌐 Internationalization (i18n)
+
+- Transloco
+- Route language prefixing
+
+### 🏎 Server Side Rendering (SSR) and Incremental Static Rendering (ISR)
+
+- Angular Universal
+- Domino
+- ngx-isr
+
+### 📇 Prerendering
+
+- Angular Universal
+
+### 📈 SEO
+
+- CustomPageTitleStrategy
+
+### 🔰 Progressive Web Application (PWA)
+
+- Service Worker configuration
+- Stale while revalidate strategy
+- Offline support
+
+### 🌠 Image lazy-loading
+
+- ng-lazyload-image
+
+### 💨 Module preloading strategies
+
+- NoPreloading (default)
+- PreloadAllModules
+- CustomRoutePreloadStrategy (implemented in this repository)
+- NetworkAwareRoutePreloadingStrategy (implemented in this repository)
+- HoverPreloadStrategy (ngx-hover-preload)
+- QuicklinkStrategy (ngx-quicklink)
+
+### 🛣 Route reusability
+
+- RouteReuseStrategy
+
+### 🏒 Pipes
+
+### 🧪 Testing
+
+#### Unit and integration tests
+
+- Jest
+- jest-extended
+
+#### e2e tests
+
+- Cypress
 
 ### 🐐 Makefile rules
 
