@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.1](https://github.com/borjapazr/angular-skeleton/compare/v1.0.0...v1.0.1) (2022-06-22)
+
+### Bug Fixes
+
+- **router:** fix i18n guard in order to replace state ([bf9fe42](https://github.com/borjapazr/angular-skeleton/commit/bf9fe42eb697f7bae237485e4198ba8b9087eba6))
+
+### Docs
+
+- **readme:** add a README.md template ([7f82c10](https://github.com/borjapazr/angular-skeleton/commit/7f82c10c5c6fe507fc0db2139683c604a5381392))
+- **readme:** add lighthouse report image ([84e2e94](https://github.com/borjapazr/angular-skeleton/commit/84e2e94cfabbcf98980ef6e1f3e34d4dd29dea2b))
+- **readme:** update lighthouse image ([1dd2775](https://github.com/borjapazr/angular-skeleton/commit/1dd2775b81ab8df8108f70e79b67604605ec58b2))
+
 ## [1.0.0](https://github.com/borjapazr/angular-skeleton/compare/v0.0.2...v1.0.0) (2022-06-21)
 
 ### Bug Fixes
