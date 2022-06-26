@@ -16,6 +16,7 @@
 ![GitHub CD Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/angular-skeleton/CD?style=flat-square&logo=github&label=CD)
 ![GitHub LICENSE](https://img.shields.io/github/license/borjapazr/angular-skeleton?style=flat-square)
 [![Demo](https://img.shields.io/badge/demo-🎮-yellow.svg?style=flat-square)](https://angular-skeleton.marsmachine.space/)
+[![Documentation](https://img.shields.io/badge/documentation-80%25-orange?style=flat-square)](https://img.shields.io/badge/documentation-80%25-orange?style=flat-square)
 
 <h4>
   🅰️🦸 Production-ready template for Progressive Web Applications implemented with Angular, TailwindCSS, Transloco, ngx-isr, etc.
