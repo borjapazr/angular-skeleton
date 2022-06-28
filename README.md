@@ -202,6 +202,8 @@ angular-skeleton/
 
 ### 🎛️ Code style and best practices
 
+> ⚠️ This section has yet to be fully documented.
+
 - Prettier
 - ESLint
 - Stylelint
@@ -210,7 +212,11 @@ angular-skeleton/
 
 ### 🛢 Barrel files
 
+Barrel files are used to organize exports. This significantly reduces the size of the import blocks.
+
 ### 🏞 Application layout
+
+> ⚠️ This section has yet to be fully documented.
 
 - Flexbox layout
 - TailwindCSS
@@ -219,10 +225,14 @@ angular-skeleton/
 
 ### 🌐 Internationalization (i18n)
 
+> ⚠️ This section has yet to be fully documented.
+
 - Transloco
 - Route language prefixing
 
 ### 🏎 Server Side Rendering (SSR) and Incremental Static Rendering (ISR)
+
+> ⚠️ This section has yet to be fully documented.
 
 - Angular Universal
 - Domino
@@ -230,13 +240,19 @@ angular-skeleton/
 
 ### 📇 Prerendering
 
+> ⚠️ This section has yet to be fully documented.
+
 - Angular Universal
 
 ### 📈 SEO
 
+> ⚠️ This section has yet to be fully documented.
+
 - CustomPageTitleStrategy
 
 ### 🔰 Progressive Web Application (PWA)
+
+> ⚠️ This section has yet to be fully documented.
 
 - Service Worker configuration
 - Stale while revalidate strategy
@@ -244,16 +260,20 @@ angular-skeleton/
 
 ### 🌠 Image lazy-loading
 
+> ⚠️ This section has yet to be fully documented.
+
 - ng-lazyload-image
 
 ### 💨 Module preloading strategies
 
-- NoPreloading (default)
-- PreloadAllModules
-- CustomRoutePreloadStrategy (implemented in this repository)
-- NetworkAwareRoutePreloadingStrategy (implemented in this repository)
-- HoverPreloadStrategy (ngx-hover-preload)
-- QuicklinkStrategy (ngx-quicklink)
+> ⚠️ This section has yet to be fully documented.
+
+- [NoPreloading](https://angular.io/api/router/NoPreloading) (default)
+- [PreloadAllModules](https://angular.io/api/router/PreloadAllModules)
+- [CustomRoutePreloadStrategy](src/app/core/strategies/custom-route-preload.strategy.ts)
+- [NetworkAwareRoutePreloadingStrategy](src/app/core/strategies/network-aware-route-preload.strategy.ts)
+- [HoverPreloadStrategy](https://github.com/mgechev/ngx-hover-preload/blob/master/projects/ngx-hover-preload/src/lib/hover-preload.strategy.ts)
+- [QuicklinkStrategy](https://github.com/mgechev/ngx-quicklink/blob/master/src/quicklink-strategy.service.ts)
 
 ### 🛣 Route reusability
 
@@ -261,7 +281,11 @@ angular-skeleton/
 
 ### 🏒 Pipes
 
+> ⚠️ This section has yet to be fully documented.
+
 ### 🧪 Testing
+
+> ⚠️ This section has yet to be fully documented.
 
 #### Unit and integration tests
 
