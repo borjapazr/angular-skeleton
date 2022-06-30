@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/borjapazr/angular-skeleton/compare/v1.0.3...v1.1.0) (2022-06-30)
+
+### Features
+
+- **footer:** add github link ([6fdd968](https://github.com/borjapazr/angular-skeleton/commit/6fdd968d65917628eb40ac870cd0638e34ef9c8c))
+
+### Docs
+
+- **readme:** add wip message in several sections ([797e8fa](https://github.com/borjapazr/angular-skeleton/commit/797e8faedf9266c7c0dafe00f2f095df738cc45c))
+
+### Others
+
+- **ci:** migrate to get-tsconfig ([9f903bb](https://github.com/borjapazr/angular-skeleton/commit/9f903bb2978f45a0085e1a9faca5e84849faf2ff))
+
 ### [1.0.3](https://github.com/borjapazr/angular-skeleton/compare/v1.0.2...v1.0.3) (2022-06-26)
 
 ### Others
