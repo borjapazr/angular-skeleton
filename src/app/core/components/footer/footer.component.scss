@@ -9,6 +9,10 @@
   .left {
     @apply hidden align-middle sm:inline-block;
 
+    app-github-icon {
+      @apply -mt-1 mr-2 hidden align-middle text-stone-900 dark:text-stone-100 sm:inline-block;
+    }
+
     app-heart-icon {
       @apply -mt-1 hidden align-middle text-red-500 sm:inline-block;
     }
