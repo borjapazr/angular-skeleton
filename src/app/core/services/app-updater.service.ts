@@ -1,3 +1,4 @@
+/* eslint-disable import/no-deprecated */
 import { ApplicationRef, Injectable, Optional } from '@angular/core';
 import { ActivatedRoute, Data, NavigationEnd, Router } from '@angular/router';
 import {

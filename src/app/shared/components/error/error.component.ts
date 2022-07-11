@@ -1,3 +1,4 @@
+/* eslint-disable import/no-deprecated */
 import { HttpStatusCode } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
 import { combineLatest, map, Observable } from 'rxjs';

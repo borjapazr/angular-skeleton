@@ -6,6 +6,7 @@
 - [ ] 📜 Document README.md
 - [ ] 📝 Document preloaders
 - [ ] 📝 Document Transloco find t(one.two.three)
+- [ ] 🚨 Remove deprecation warnings from RxJS
 
 ### In Progress
 

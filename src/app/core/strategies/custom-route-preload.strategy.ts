@@ -1,3 +1,4 @@
+/* eslint-disable import/no-deprecated */
 import { ApplicationRef, Injectable } from '@angular/core';
 import { PreloadingStrategy, Route } from '@angular/router';
 import { concat, EMPTY, first, Observable, switchMap, timer, toArray } from 'rxjs';
