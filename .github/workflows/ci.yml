@@ -36,6 +36,15 @@ jobs:
       - name: 📑 Check lint
         run: npm run check:lint
 
+      - name: 🌐 Check html
+        run: npm run check:html
+
+      - name: 💄 Check scss
+        run: npm run check:scss
+
+      - name: 🔡 Check i18n
+        run: npm run check:i18n
+
       - name: 🔤 Check spelling
         run: npm run check:spelling
 
