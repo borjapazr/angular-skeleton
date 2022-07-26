@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.3](https://github.com/borjapazr/angular-skeleton/compare/v1.1.2...v1.1.3) (2022-07-26)
+
+### Others
+
+- **ci:** add node 18.x validations ([5110965](https://github.com/borjapazr/angular-skeleton/commit/5110965f0a26a226794c5ed53a173237769e839a))
+
 ### [1.1.2](https://github.com/borjapazr/angular-skeleton/compare/v1.1.1...v1.1.2) (2022-07-26)
 
 ### Others
