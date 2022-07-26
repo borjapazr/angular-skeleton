@@ -20,6 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": ["flat", "fast-deep-equal", "@messageformat/core"],
             "outputPath": "dist/browser",
             "index": "src/index.html",
             "main": "src/main.browser.ts",
