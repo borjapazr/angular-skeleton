@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.2](https://github.com/borjapazr/angular-skeleton/compare/v1.1.1...v1.1.2) (2022-07-26)
+
+### Others
+
+- **angular:** add allowed commonjs libs to angular config ([2be8210](https://github.com/borjapazr/angular-skeleton/commit/2be8210f4ed249a9e03b9a2b439ce7890830e00c))
+- **deps:** update dependencies ([ea65e69](https://github.com/borjapazr/angular-skeleton/commit/ea65e697a86a9b94fdcb7e08bd99b2857353cae5))
+- **deps:** update dependencies ([dc44cc5](https://github.com/borjapazr/angular-skeleton/commit/dc44cc59178b30c6ec50e1ec60c44444852f36bf))
+
 ### [1.1.1](https://github.com/borjapazr/angular-skeleton/compare/v1.1.0...v1.1.1) (2022-07-11)
 
 ### Others
