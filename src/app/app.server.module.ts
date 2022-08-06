@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ServerModule, ServerTransferStateModule } from '@angular/platform-server';
+import { ServerModule } from '@angular/platform-server';
 import { TRANSLOCO_LOADER } from '@ngneat/transloco';
 import { NgxIsrModule } from 'ngx-isr';
 
@@ -15,7 +15,6 @@ import { AppModule } from './app.module';
 
     // SSR - Angular Universal
     ServerModule,
-    ServerTransferStateModule,
     NgxIsrModule.forRoot()
   ],
   providers: [{ provide: TRANSLOCO_LOADER, useClass: I18nServerLoader }],

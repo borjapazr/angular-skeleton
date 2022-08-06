@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { BrowserTransferStateModule } from '@angular/platform-browser';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { TRANSLOCO_LOADER } from '@ngneat/transloco';
 import { TranslocoPreloadLangsModule } from '@ngneat/transloco-preload-langs';
@@ -19,7 +18,6 @@ import { AppModule } from './app.module';
 
     // SSR - Angular Universal
     StateTransferInitializerModule,
-    BrowserTransferStateModule,
 
     // i18n
     TranslocoPreloadLangsModule.forRoot(LANGUAGES.map(language => language.id)),
