@@ -188,23 +188,26 @@ module.exports = {
       overrides: [
         {
           files: ['*.unit.ts', '*.int.ts', '*.spec.ts', '*.test.ts'],
-          plugins: ['jest'],
           env: {
             jest: true,
             'jest/globals': true
           },
           extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+          plugins: ['jest'],
           rules: {
             'jest/expect-expect': ['error', { assertFunctionNames: ['expect', 'request.**.expect'] }]
           }
         },
         {
           files: ['*.e2e.ts', '*.cy.ts'],
-          plugins: ['cypress'],
           env: {
             'cypress/globals': true
           },
+          parserOptions: {
+            project: './cypress/tsconfig.json'
+          },
           extends: ['plugin:cypress/recommended'],
+          plugins: ['cypress'],
           rules: {}
         }
       ]
