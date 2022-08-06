@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.4](https://github.com/borjapazr/angular-skeleton/compare/v1.1.3...v1.1.4) (2022-08-06)
+
+### Others
+
+- **deps:** update angular dependencies ([26d0dac](https://github.com/borjapazr/angular-skeleton/commit/26d0dac77250d52af109e2756e43237aa1b49535))
+- **deps:** update dependencies ([b221ca8](https://github.com/borjapazr/angular-skeleton/commit/b221ca82b63084940be49e3ee17a23bdbb1d514c))
+- **deps:** update dependencies ([d1d1eaa](https://github.com/borjapazr/angular-skeleton/commit/d1d1eaa327e15ac4ab3a5fd5e18684c730d2ab38))
+- **deps:** update dependencies ([f3198ad](https://github.com/borjapazr/angular-skeleton/commit/f3198ad000cf22d980d2042ef1053ba8166c1339))
+- **eslint:** format tests section ([79b60d0](https://github.com/borjapazr/angular-skeleton/commit/79b60d074355951d1584afc552200eddd6eb771d))
+
 ### [1.1.3](https://github.com/borjapazr/angular-skeleton/compare/v1.1.2...v1.1.3) (2022-07-26)
 
 ### Others
