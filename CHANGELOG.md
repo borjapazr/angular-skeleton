@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.1.5](https://github.com/borjapazr/angular-skeleton/compare/v1.1.4...v1.1.5) (2022-08-06)
+
+### Bug Fixes
+
+- **transferstate:** fix deprecation warnings about transferstate (browser and server) ([2b3ef0c](https://github.com/borjapazr/angular-skeleton/commit/2b3ef0cc2ef53c446fd3d9a23b4f5d33aa0dba1a))
+
 ### [1.1.4](https://github.com/borjapazr/angular-skeleton/compare/v1.1.3...v1.1.4) (2022-08-06)
 
 ### Others
