@@ -24,6 +24,7 @@
     "skipLibCheck": true,
     "noPropertyAccessFromIndexSignature": true,
     "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "outDir": "./dist/out-tsc",
     "paths": {
       "@app/*": ["src/app/*"],

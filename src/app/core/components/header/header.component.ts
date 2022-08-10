@@ -21,6 +21,8 @@ export class HeaderComponent {
 
   public readonly title = environment.appName;
 
+  public readonly version = environment.appVersion;
+
   public isDarkMode = this.getIsDarkMode();
 
   constructor(@Inject(DOCUMENT) private readonly document: Document, private readonly storageService: StorageService) {

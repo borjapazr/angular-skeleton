@@ -2,9 +2,13 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+// eslint-disable-next-line no-restricted-imports
+import packageJson from '../../package.json';
+
 export const environment = {
   production: false,
   appName: 'Angular Skeleton',
+  appVersion: packageJson.version,
   appDescription: 'Angular Skeleton',
   author: '@borjapazr',
   authorEmail: 'borjapazr@gmail.com',
