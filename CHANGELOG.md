@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/borjapazr/angular-skeleton/compare/v1.1.5...v1.2.0) (2022-08-10)
+
+### Features
+
+- **version:** show app version in header ([260c500](https://github.com/borjapazr/angular-skeleton/commit/260c500a72192f5fac2d3e192dc127f828bb36e6))
+
 ### [1.1.5](https://github.com/borjapazr/angular-skeleton/compare/v1.1.4...v1.1.5) (2022-08-06)
 
 ### Bug Fixes
