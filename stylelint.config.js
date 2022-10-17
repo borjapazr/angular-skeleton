@@ -33,6 +33,7 @@ module.exports = {
       {
         ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen']
       }
-    ]
+    ],
+    'import-notation': null
   }
 };
