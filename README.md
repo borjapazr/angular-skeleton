@@ -12,8 +12,8 @@
 <br>
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/borjapazr/angular-skeleton?style=flat-square)
-![GitHub CI Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/angular-skeleton/CI?style=flat-square&logo=github&label=CI)
-![GitHub CD Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/angular-skeleton/CD?style=flat-square&logo=github&label=CD)
+![GitHub CI Workflow Status](https://img.shields.io/github/actions/workflow/status/borjapazr/angular-skeleton/ci.yml?branch=main&style=flat-square&logo=github&label=CI)
+![GitHub CD Workflow Status](https://img.shields.io/github/actions/workflow/status/borjapazr/angular-skeleton/cd.yml?branch=main&style=flat-square&logo=github&label=CD)
 ![GitHub LICENSE](https://img.shields.io/github/license/borjapazr/angular-skeleton?style=flat-square)
 [![Demo](https://img.shields.io/badge/demo-🎮-yellow.svg?style=flat-square)](https://angular-skeleton.marsmachine.space/)
 [![Documentation](https://img.shields.io/badge/documentation-80%25-orange?style=flat-square)](https://img.shields.io/badge/documentation-80%25-orange?style=flat-square)
