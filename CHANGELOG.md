@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.2.3](https://github.com/borjapazr/angular-skeleton/compare/v1.2.2...v1.2.3) (2022-12-18)
+
+### Bug Fixes
+
+- **badge:** fix shieldsio badge ([709c7b2](https://github.com/borjapazr/angular-skeleton/commit/709c7b23c155e7214820328cf007327879f92f53))
+
+### Others
+
+- **deps:** update dependencies ([eed89c1](https://github.com/borjapazr/angular-skeleton/commit/eed89c1be4224fdb9ba7be34220149ce8ba40e48))
+- **deps:** update dependencies ([9cb9b31](https://github.com/borjapazr/angular-skeleton/commit/9cb9b3189576a608fbf92322a37df2da97827b46))
+
 ### [1.2.2](https://github.com/borjapazr/angular-skeleton/compare/v1.2.1...v1.2.2) (2022-10-26)
 
 ### Others
