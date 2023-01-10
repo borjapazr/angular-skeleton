@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.2.4](https://github.com/borjapazr/angular-skeleton/compare/v1.2.3...v1.2.4) (2023-01-10)
+
+### Bug Fixes
+
+- **version:** add postchangelog script ([45da200](https://github.com/borjapazr/angular-skeleton/commit/45da2004423cbfe6bec247bee67371f5e427bf68))
+
+### Others
+
+- **deps:** update and add peer dependencies explicitly ([d7077c9](https://github.com/borjapazr/angular-skeleton/commit/d7077c9b7da007fe7fbaf65c636790a7536ed1c2))
+
 ### [1.2.3](https://github.com/borjapazr/angular-skeleton/compare/v1.2.2...v1.2.3) (2022-12-18)
 
 ### Bug Fixes
