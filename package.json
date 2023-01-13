@@ -169,7 +169,7 @@
     "postcss": "^8.4.18",
     "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1",
-    "prettier-plugin-tailwindcss": "^0.1.13",
+    "prettier-plugin-tailwindcss": "^0.2.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
     "stylelint": "^14.14.1",
