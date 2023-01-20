@@ -30,7 +30,7 @@ yarn-error.log
 /.angular/cache
 .sass-cache/
 /connect.lock
-/coverage
+/coverage*
 /libpeerconnection.log
 testem.log
 /typings
@@ -46,7 +46,7 @@ node_modules
 .npm
 
 # Testing
-coverage
+coverage*
 cypress/videos
 cypress/screenshots
 .nyc_output
