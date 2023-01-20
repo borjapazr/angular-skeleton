@@ -163,7 +163,7 @@
     "jest-extended": "^3.2.3",
     "jest-preset-angular": "^12.2.5",
     "lint-staged": "^13.1.0",
-    "ngx-build-plus": "^15.0.0",
+    "ngx-build-plus": "^14.0.0",
     "npm-check-updates": "^16.6.2",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",

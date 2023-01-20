@@ -1,7 +1,7 @@
 ARG PORT=5000
 
 # Base image stage
-FROM node:18.13.0-alpine as node
+FROM node:18-alpine as node
 
 RUN apk --no-cache -U upgrade
 RUN apk update
