@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.2.6](https://github.com/borjapazr/angular-skeleton/compare/v1.2.5...v1.2.6) (2023-01-20)
+
+### Others
+
+- **actions:** update setup-node action version to v3 ([c0b3b7e](https://github.com/borjapazr/angular-skeleton/commit/c0b3b7eaedcc61bbda5fec4790edc6b2ad056937))
+
 ### [1.2.5](https://github.com/borjapazr/angular-skeleton/compare/v1.2.4...v1.2.5) (2023-01-20)
 
 ### Others
