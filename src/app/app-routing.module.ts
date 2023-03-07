@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes, UrlMatcher, UrlSegment } from '@angular/router';
 
 import { LANGUAGES } from './core/constants';
-import { LocalizeRoute } from './core/guards';
-import { LanguageResolver } from './core/resolvers';
+import { localizeRoute } from './core/guards';
+import { languageResolver } from './core/resolvers';
 import { CustomRoutePreloadingStrategy } from './core/strategies';
 import { ErrorComponent } from './shared/components';
 
@@ -58,9 +58,9 @@ const routes: Routes = [
         {
           matcher: languageMatcher,
           children: routes,
-          resolve: [LanguageResolver]
+          resolve: [languageResolver]
         },
-        { path: '', canActivate: [LocalizeRoute], children: routes }
+        { path: '', canActivate: [localizeRoute], children: routes }
       ],
       {
         initialNavigation: 'enabledBlocking',
