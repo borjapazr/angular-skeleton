@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://github.com/borjapazr/angular-skeleton/compare/v1.2.6...v1.3.0) (2023-03-07)
+
+### Features
+
+- **deps:** upgrade angular to v15 ([2b354ef](https://github.com/borjapazr/angular-skeleton/commit/2b354ef99e04ff7dd7199040aa06fdcf80702723)), closes [#100](https://github.com/borjapazr/angular-skeleton/issues/100)
+
+### Others
+
+- **deps:** update dependencies ([315c6a1](https://github.com/borjapazr/angular-skeleton/commit/315c6a104419115aa2dd72cc2ec14df07f47b727))
+
 ### [1.2.6](https://github.com/borjapazr/angular-skeleton/compare/v1.2.5...v1.2.6) (2023-01-20)
 
 ### Others
