@@ -15,12 +15,6 @@ module.exports = {
   },
   testMatch: ['<rootDir>/src/**/?(*.)+(unit|int|spec|test).(ts|js)'],
   preset: 'jest-preset-angular',
-  globals: {
-    'ts-jest': {
-      allowSyntheticDefaultImports: true,
-      tsconfig: '<rootDir>/tsconfig.spec.json'
-    }
-  },
   // Resolve 'paths' from tsconfig.json
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>' }),
   // Ignore paths and modules
