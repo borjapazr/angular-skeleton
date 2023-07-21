@@ -1,4 +1,5 @@
 module.exports = {
+  endOfLine: 'lf',
   arrowParens: 'avoid',
   printWidth: 120,
   quoteProps: 'as-needed',
